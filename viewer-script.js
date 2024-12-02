@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 방송국 버튼 클릭 시
     broadcastLinkButton.addEventListener("click", () => {
-        window.open("https://ch.sooplive.co.kr/5wolindeyo/post/136049221", "_blank");
+        window.open("https://ch.sooplive.co.kr/5wolindeyo", "_blank");
     });
 
     // 가격표 보기 버튼 클릭 시
