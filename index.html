@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오월이네 미장원</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <style>
+        h1 {text-align: center;}
+    </style>
+</head>
+<body>
+    <!-- 달력 화면 -->
+    <div id="calendar-screen">
+        <header>
+            <h1>오월이네 미장원🍊</h1>
+        </header>
+        <div class="month-selector">
+            <button id="prev-month" class="month-button">&lt;</button>
+            <span id="current-month">2024년 11월</span>
+            <button id="next-month" class="month-button">&gt;</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="background-color: #FA7000;">일</th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                    <th>토</th>
+                </tr>
+            </thead>
+            <tbody id="viewer-calendar-body">
+                <!-- 날짜가 JavaScript로 동적으로 생성됨 -->
+            </tbody>
+        </table>
+            
+        <div id="additional-buttons">
+            <button id="broadcast-link-button">오월이의 방송국</button>
+            <button id="pricelist-button">가격표 보기</button>
+        </div>
+        
+        <div id="price-popup" class="popup hidden">
+            <div class="popup-content">
+                <img src="assets/5wol-pricelist.png" alt="가격표" id="pricelist-image">
+                <button id="close-price-popup" class="button-group">닫기</button>
+            </div>
+        </div>
+    </div>
+    <script src="./viewer-script.js"></script>
+</body>
+</html>

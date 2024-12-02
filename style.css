@@ -1,0 +1,552 @@
+@font-face {
+    font-family: 'establishRetrosansOTF';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRetrosansOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeoLight';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeoBold';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeoExtraBold';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeoHeavy';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareNeoVariable';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.ttf) format("truetype");
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-family: 'establishRetrosansOTF', sans-serif; /* Apply custom font */
+    font-weight: normal; /* Bold 스타일 제거 */
+    text-align: center; /* 중앙 정렬 */
+}
+
+tr {
+    font-family: 'NanumSquareNeoLight', sans-serif; /* Apply custom font */
+    font-weight: normal; /* Bold 스타일 제거 */
+    text-align: center; /* 중앙 정렬 */
+}
+
+#schedule-form {
+    font-family: 'NanumSquareNeo', sans-serif; /* 원하는 폰트 이름 */
+    font-weight: normal; /* Bold 스타일 제거 */
+}
+
+#manager-mode {
+    font-family: 'establishRetrosansOTF', sans-serif; /* 원하는 폰트 이름 */
+    font-size: 1.5rem;
+    font-weight: normal; /* Bold 스타일 제거 */
+    color: #666666;
+}
+
+/* 제목 스타일 */
+#date-manager {
+    font-family: 'establishRetrosansOTF', sans-serif; /* 사용자 지정 폰트 */
+    font-size: 1.8rem; /* 제목 크기 */
+    font-weight: normal;
+    text-align: center; /* 가운데 정렬 */
+    margin-bottom: 20px; /* 제목 아래 여백 */
+}
+
+/* 내용 컨테이너 스타일 */
+#date-viewer {
+    font-family: 'NanumSquareNeo', sans-serif; /* 사용자 지정 폰트 */
+    font-size: 1rem; /* 텍스트 크기 */
+    font-weight: normal;
+    line-height: 1.6; /* 줄 간격 */
+    margin-bottom: 20px; /* 전체 여백 */
+}
+
+#auth-button {
+    font-family: 'NanumSquareNeo', sans-serif; /* 원하는 폰트 이름 */
+    font-weight: normal; /* Bold 스타일 제거 */
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    font-family: 'NanumSquareNeo', sans-serif; /* 원하는 폰트 이름 */
+    font-weight: normal; /* Bold 스타일 제거 */
+}
+
+#auth-button:hover {
+    background-color: #e58b20;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.popup-content h1 {
+    margin-bottom: 20px;
+}
+
+.popup-content label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.popup-content input,
+.popup-content textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.popup-content textarea {
+    height: 80px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-group button {
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background-color: #e58b20;
+}
+
+#calendar-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 90%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th{
+    width: 14.2%;
+    height: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F2AC29;
+    color: #fff;
+}
+
+td {
+    width: 14.2%;
+    height: 90px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+
+}
+#export-button, #load-button{
+    margin-top: 20px;
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+#add-event-button{
+    margin-top: 20px;
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-event-button:hover{
+    background-color: #e58b20;
+}
+
+.scheduled-datePrint {
+    font-family: 'Poiret One', sans-serif; /* Poiret One 폰트 */
+    color: black;
+    font-weight: bold;
+}
+.scheduled-title {
+    font-size: 0.9rem;
+    color: #666666;
+    margin-top: 15px;
+    text-align: center;
+    white-space: normal; /* 줄바꿈 허용 */
+    word-break: keep-all; /* 단어 중간에서는 줄바꿈 금지 (한글 포함) */
+    overflow-wrap: break-word; /* 단어 단위로 줄바꿈 */
+    line-height: 1.4; /* 줄 간격 */
+}
+#schedule-tab {
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* 다른 요소 위에 표시 */
+}
+
+#schedule-tab h2 {
+    margin-bottom: 10px;
+}
+
+#schedule-tab input,
+#schedule-tab textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#schedule-tab button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#save-schedule, #cancle-schedule {
+    background-color: #f5a623;
+    color: white;
+}
+
+#delete-schedule {
+    background-color: #FA7000;
+    color: white;
+}
+
+#schedule-date-view,
+#schedule-title-edit,
+#schedule-description-edit {
+    width: 100%; /* 필드의 너비를 100%로 */
+    padding: 10px; /* 필드 내부 여백 */
+    margin-top: 5px; /* 라벨과 필드 간 간격 */
+    margin-bottom: 15px; /* 필드 간 간격 */
+    border: 1px solid #ddd; /* 테두리 색상 */
+    border-radius: 5px; /* 둥근 테두리 */
+    font-family: 'NanumSquareNeo', sans-serif; /* 동일한 폰트 */
+}
+
+#calendar-body td {
+    transition: background-color 0.3s ease; /* 부드러운 색 전환 */
+}
+
+#calendar-body td:hover {
+    background-color: #fff6df; /* 호버 시 밝은 주황으로 변경 */
+    cursor: pointer; /* 클릭 가능하다는 시각적 힌트 */
+}
+
+/* 일정이 등록된 셀 */
+#calendar-body td[data-scheduled="true"] {
+    background-color: #fff4e1; /* 기본 배경색 (크림색) */
+}
+
+/* 일정이 등록된 셀 호버 효과 */
+#calendar-body td[data-scheduled="true"]:hover {
+    background-color: #fff1d4; /* 밝은 오렌지색 */
+    cursor: pointer;
+}
+
+/*되돌리기 버튼*/
+.icon-button {
+    background-color: #f0f0f0; /* 버튼 배경색 */
+    border: none; /* 테두리 제거 */
+    border-radius: 50%; /* 둥근 버튼 */
+    width: 40px; /* 버튼 크기 */
+    height: 40px; /* 버튼 크기 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; /* 아이콘 크기 */
+    cursor: pointer; /* 클릭 커서 표시 */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 약간의 그림자 */
+    transition: all 0.2s ease-in-out; /* 애니메이션 효과 */
+}
+
+.icon-button:hover {
+    background-color: #e0e0e0; /* 호버 시 배경색 */
+    transform: scale(1.1); /* 살짝 확대 효과 */
+}
+
+.icon-button:active {
+    background-color: #d0d0d0; /* 클릭 시 배경색 */
+    transform: scale(0.95); /* 살짝 축소 효과 */
+}
+
+/* 일정 추가 버튼 컨테이너 */
+.add-button-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+/* Undo/Redo 버튼 컨테이너 */
+.undo-redo-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* ===== 지우개 모드 관련 스타일 ===== */
+body.eraser-mode {
+    cursor: url('assets/orange-eraser.ico'), auto !important;
+}
+
+body.eraser-mode * {
+    cursor: url('assets/orange-eraser.ico'), auto !important;
+}
+
+body.eraser-mode a:hover,
+body.eraser-mode button:hover {
+    background-color: inherit !important;
+    color: inherit !important;
+    cursor: url('assets/orange-eraser.ico'), auto !important;
+}
+
+body.eraser-mode #calendar-body td:hover {
+    background-color: inherit !important;
+    cursor: url('assets/orange-eraser.ico'), auto !important;
+}
+
+/* 요일 선택 버튼 컨테이너 */
+.day-button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* 줄바꿈 방지 */
+    align-items: center; /* 수직 중앙 정렬 */
+    gap: 5px; /* 버튼 간 간격 조정 */
+    margin-top: 10px; /* 컨테이너 위아래 여백 */
+    margin-bottom: 10px;
+}
+
+/* 요일 버튼 스타일 */
+.day-button {
+    background-color: white;
+    border: 2px solid #f5a623; /* 주황색 테두리 */
+    color: #f5a623; /* 텍스트 주황색 */
+    border-radius: 50%;
+    width: 40px; /* 버튼 너비 */
+    height: 40px; /* 버튼 높이 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; /* 텍스트 크기 */
+    cursor: pointer; /* 마우스 커서 */
+    transition: all 0.3s ease; /* 애니메이션 */
+}
+
+/* 버튼 호버 효과 */
+.day-button:hover {
+    background-color: #fff4e1; /* 연한 주황 배경 */
+    color: #e58b20; /* 진한 주황 텍스트 */
+}
+
+/* 버튼 선택 효과 */
+.day-button.selected {
+    background-color: #f5a623; /* 선택된 배경색 */
+    color: #fff; /* 텍스트 색상 (흰색) */
+    border-color: #f5a623; /* 테두리 색상 */
+}
+
+#current-month{
+    font-family: 'GmarketSansMedium', sans-serif; /* 새 폰트 */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* 요일 버튼 스타일 */
+.month-button {
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px; /* 버튼 너비 */
+    height: 25px; /* 버튼 높이 */
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; /* 텍스트 크기 */
+    cursor: pointer; /* 마우스 커서 */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 약간의 그림자 */
+}
+
+.hidden {
+    display: none;
+}
+
+.overwrite-option label {
+    display: inline-flex; /* 체크박스와 텍스트를 한 줄에 배치 */
+    align-items: center; /* 수직 정렬 */
+    gap: 5px; /* 체크박스와 텍스트 간격 */
+    white-space: nowrap; /* 텍스트 줄바꿈 방지 */
+}
+
+
+#additional-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#broadcast-link-button, #pricelist-button {
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#broadcast-link-button:hover, #pricelist-button:hover {
+    background-color: #e58b20;
+}
+
+#price-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#price-popup .popup-content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+#pricelist-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#close-price-popup {
+    position: absolute; /* 팝업 내부에서 위치 고정 */
+    bottom: 3%; /* 수직 중앙 정렬 */
+    left: 50%; /* 수평 중앙 정렬 */
+    transform: translate(-50%, -50%); /* 정확히 중앙에 배치 */
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#close-price-popup:hover {
+    background-color: #e58b20;
+}
+
+#price-popup.hidden {
+    display: none;
+}
