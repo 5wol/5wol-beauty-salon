@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // JSON 데이터를 로드하여 캘린더에 표시
     async function loadSchedule() {
         try {
-            const response = await fetch(JSON_FILE_PATH);
+            const response = await fetch(`${JSON_FILE_PATH}?_=${new Date().getTime()}`);
             if (!response.ok) throw new Error('JSON 파일을 불러오지 못했습니다.');
             const data = await response.json();
 
