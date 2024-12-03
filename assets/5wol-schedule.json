@@ -1,59 +1,78 @@
 {
   "2024-12-08": {
-    "title": "마감"
+    "title": "마감",
+    "colorNumber": 3
   },
   "2024-12-15": {
-    "title": "마감"
+    "title": "마감",
+    "colorNumber": 3
   },
   "2024-12-03": {
-    "title": "작업 불가"
+    "title": "작업 불가",
+    "colorNumber": 4
   },
   "2024-12-04": {
-    "title": "작업 불가"
+    "title": "작업 불가",
+    "colorNumber": 4
   },
   "2024-12-05": {
-    "title": "작업 불가"
+    "title": "작업 불가",
+    "colorNumber": 4
   },
   "2024-12-06": {
-    "title": "작업 불가"
+    "title": "작업 불가",
+    "colorNumber": 4
   },
   "2024-12-07": {
-    "title": "작업 불가"
+    "title": "작업 불가",
+    "colorNumber": 4
   },
   "2024-12-09": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   },
   "2024-12-10": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   },
   "2024-12-11": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   },
   "2024-12-12": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   },
   "2024-12-13": {
-    "title": "마감"
+    "title": "마감",
+    "colorNumber": 3
   },
   "2024-12-14": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   },
   "2024-12-16": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   },
   "2024-12-17": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   },
   "2024-12-18": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   },
   "2024-12-19": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   },
   "2024-12-20": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   },
   "2024-12-21": {
-    "title": "작업 문의 가능"
+    "title": "작업 문의 가능",
+    "colorNumber": 1
   }
 }
