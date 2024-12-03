@@ -15,6 +15,14 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentYear = today.getFullYear();
     let currentMonthIndex = today.getMonth(); // 현재 월 (0-based)
 
+    // 색상 번호와 실제 색상 매핑
+    const colorMap = {
+        1: "#FFF4E1", // 크림색
+        2: "#B0E0E6", // 연한 하늘색
+        3: "#FFDAB9", // 연한 살구색
+        4: "#C1E1C1"  // 연한 연녹색
+    };
+
     // JSON 데이터를 로드하여 캘린더에 표시
     async function loadSchedule() {
         try {
@@ -54,11 +62,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // 일정이 있는 날짜 표시
                     if (events[fullDate]) {
+                        const colorNumber = events[fullDate].colorNumber;
+                        const color = colorNumber ? colorMap[colorNumber] : "#FFF4E1"; // 기본값 크림색
                         cell.innerHTML = `
                         <div class="scheduled-datePrint">${date}</div>
                         <div class="scheduled-title">${events[fullDate].title}</div>                      
                         `;
-                        cell.style.backgroundColor = "#FFF4E1";
+                        cell.style.backgroundColor = color;
                     } else {
                         cell.innerHTML = `<div class="scheduled-datePrint">${date}</div>`;
                     }
