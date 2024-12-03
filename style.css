@@ -47,6 +47,14 @@
     src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot);
     src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.ttf) format("truetype");
 }
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -250,6 +258,7 @@ td {
 
 #add-event-button:hover{
     background-color: #e58b20;
+    background-color: #dbefe0;
 }
 
 .scheduled-datePrint {
@@ -258,8 +267,8 @@ td {
     font-weight: bold;
 }
 .scheduled-title {
-    font-size: 0.9rem;
-    color: #666666;
+    font-family: 'SUIT-Regular', sans-serif;
+    color: #3e3e3e;
     margin-top: 15px;
     text-align: center;
     white-space: normal; /* 줄바꿈 허용 */
