@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // 색상 번호와 실제 색상 매핑
     const colorMap = {
         1: "#FFF4E1", // 크림색
-        2: "#B0E0E6", // 연한 하늘색
-        3: "#FFDAB9", // 연한 살구색
-        4: "#C1E1C1"  // 연한 연녹색
+        2: "#D6F3F9", // 연한 하늘색
+        3: "#FFEBD8", // 연한 살구색
+        4: "#DBEFE0"  // 연한 연녹색
     };
 
     // JSON 데이터를 로드하여 캘린더에 표시
