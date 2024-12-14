@@ -90,5 +90,33 @@
   "2025-01-11": {
     "title": "뉴오월 세상에 나오는 날",
     "colorNumber": 3
+  },
+  "2024-12-25": {
+    "title": "마감",
+    "colorNumber": 3
+  },
+  "2024-12-26": {
+    "title": "마감",
+    "colorNumber": 3
+  },
+  "2024-12-27": {
+    "title": "작업 가능",
+    "colorNumber": 1
+  },
+  "2024-12-28": {
+    "title": "작업 가능",
+    "colorNumber": 1
+  },
+  "2024-12-29": {
+    "title": "작업 가능",
+    "colorNumber": 1
+  },
+  "2024-12-30": {
+    "title": "작업 가능",
+    "colorNumber": 1
+  },
+  "2024-12-31": {
+    "title": "작업 가능",
+    "colorNumber": 1
   }
 }
