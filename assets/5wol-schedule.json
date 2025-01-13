@@ -196,7 +196,11 @@
     "colorNumber": 4
   },
   "2025-01-21": {
-    "title": "빠른마감 가능",
-    "colorNumber": 4
+    "title": "마감",
+    "colorNumber": 1
+  },
+  "2025-01-23": {
+    "title": "마감",
+    "colorNumber": 3
   }
 }
