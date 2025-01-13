@@ -87,10 +87,6 @@
     "title": "마감",
     "colorNumber": 3
   },
-  "2025-01-11": {
-    "title": "뉴오월 세상에 나오는 날",
-    "colorNumber": 4
-  },
   "2024-12-25": {
     "title": "마감",
     "colorNumber": 3
@@ -177,10 +173,30 @@
   },
   "2025-01-15": {
     "title": "마감",
-    "colorNumber": 3
+    "colorNumber": 1
   },
   "2025-01-17": {
     "title": "마감",
     "colorNumber": 3
+  },
+  "2025-01-19": {
+    "title": "마감",
+    "colorNumber": 1
+  },
+  "2025-01-20": {
+    "title": "마감",
+    "colorNumber": 1
+  },
+  "2025-01-22": {
+    "title": "마감",
+    "colorNumber": 1
+  },
+  "2025-01-18": {
+    "title": "빠른마감 가능",
+    "colorNumber": 4
+  },
+  "2025-01-21": {
+    "title": "빠른마감 가능",
+    "colorNumber": 4
   }
 }
