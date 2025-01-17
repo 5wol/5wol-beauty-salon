@@ -177,7 +177,7 @@
   },
   "2025-01-17": {
     "title": "마감",
-    "colorNumber": 3
+    "colorNumber": 1
   },
   "2025-01-19": {
     "title": "마감",
@@ -201,13 +201,21 @@
   },
   "2025-01-23": {
     "title": "마감",
-    "colorNumber": 3
+    "colorNumber": 1
   },
   "2025-01-24": {
-    "title": "빠른마감 가능",
-    "colorNumber": 4
+    "title": "마감",
+    "colorNumber": 3
   },
   "2025-01-25": {
+    "title": "마감",
+    "colorNumber": 1
+  },
+  "2025-01-26": {
+    "title": "마감",
+    "colorNumber": 3
+  },
+  "2025-01-27": {
     "title": "마감",
     "colorNumber": 3
   }
