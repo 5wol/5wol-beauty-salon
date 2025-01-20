@@ -205,18 +205,22 @@
   },
   "2025-01-24": {
     "title": "마감",
-    "colorNumber": 3
+    "colorNumber": 1
   },
   "2025-01-25": {
     "title": "마감",
     "colorNumber": 1
   },
   "2025-01-26": {
-    "title": "마감",
-    "colorNumber": 3
+    "title": "빠른",
+    "colorNumber": 2
   },
   "2025-01-27": {
     "title": "마감",
-    "colorNumber": 3
+    "colorNumber": 2
+  },
+  "2025-01-28": {
+    "title": "문의 주세요",
+    "colorNumber": 2
   }
 }
