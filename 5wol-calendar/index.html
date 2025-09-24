@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>오얼이네 캘린더</title>
+  <link rel="stylesheet" href="./owol-viewer-style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Gmarket+Sans:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="glass-overlay">
+    <header class="header">
+      <h1 class="title">🍊 오얼이네 캘린더 🍊</h1>
+    </header>
+
+    <div class="month-selector">
+      <button id="prev-month" class="month-button" aria-label="이전 달">&lt;</button>
+      <span id="current-month">YYYY년 M월</span>
+      <button id="next-month" class="month-button" aria-label="다음 달">&gt;</button>
+    </div>
+
+    <div class="calendar-container">
+      <table class="calendar-table" aria-label="월간 캘린더">
+        <thead>
+          <tr>
+            <th class="dow">일</th>
+            <th class="dow">월</th>
+            <th class="dow">화</th>
+            <th class="dow">수</th>
+            <th class="dow">목</th>
+            <th class="dow">금</th>
+            <th class="dow">토</th>
+          </tr>
+        </thead>
+        <tbody id="viewer-calendar-body">
+          <!-- 날짜가 JS로 생성됩니다 -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="./owol-viewer-script.js"></script>
+  
+  <!-- ===== Event Modal ===== -->
+  <div id="event-modal" class="modal hidden" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card" role="document">
+      <button class="modal-close" id="modal-close" aria-label="닫기">×</button>
+      <div class="modal-head">
+        <div id="modal-date" class="modal-date">YYYY년 M월 D일 일정</div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-title" id="modal-title">제목</div>
+        <div class="modal-content" id="modal-content">내용</div>
+      </div>
+      <div class="modal-foot">
+        <button id="modal-prev" class="modal-nav">◀ 이전</button>
+        <button id="modal-next" class="modal-nav">다음 ▶</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

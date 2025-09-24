@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>한오월 🍊 링크 모음</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="links.css" />
+  <meta name="description" content="한오월 | 3D 버추얼 작업자 / 버추얼 스트리머 링크 모음" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="head">
+      <div class="logo">한오월 <span class="peach" aria-hidden="true">🍊</span></div>
+      <p class="sub">밀레니엄 베이비 · 3D 버추얼 작업자 / 버추얼 스트리머</p>
+    </header>
+
+    <section class="links">
+    <a class="pill" href="https://ch.sooplive.co.kr/5wolindeyo" target="_blank" rel="noopener">📺 SOOP 방송국</a>
+    <a class="pill" href="https://docs.google.com/spreadsheets/d/1I2Wj5ElIRfQNO4TbIoaNRwqQ4bVX69_p3YEw_ZaVypM/edit?usp=sharing" target="_blank" rel="noopener">📅 방송 캘린더</a>
+    <a class="pill" href="https://discord.gg/39dw53MWeq" target="_blank" rel="noopener">💬 작업 문의 (DISCORD)</a>
+    <a class="pill" href="https://artmug.kr/index.php?channel=view&uid=48535" target="_blank" rel="noopener">🛍️ 아트머그</a>
+    <a class="pill" href="https://5wol.github.io/5wol-beauty-salon/" target="_blank" rel="noopener">🗂 작업 캘린더</a>
+    <a class="pill" href="https://youtube.com/@5wol__ida" target="_blank" rel="noopener">▶️ 작업 유튜브</a>
+    <a class="pill" href="https://x.com/5wol__indeyo" target="_blank" rel="noopener">✖️ X (Twitter)</a>
+    </section>
+
+
+    <footer class="foot">
+      <small>© <span id="yy"></span> Hanowol. All rights reserved.</small>
+    </footer>
+  </main>
+
+  <script>
+    // 연도 자동 표기
+    document.getElementById('yy').textContent = new Date().getFullYear();
+
+    // iOS 사파리 진동 없이 눌림감: :active 강제 트리거
+    document.body.addEventListener('touchstart', ()=>{}, {passive:true});
+  </script>
+</body>
+</html>

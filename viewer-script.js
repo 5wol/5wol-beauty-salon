@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const calendarBody = document.getElementById('viewer-calendar-body');
     const currentMonthElement = document.getElementById('current-month');
     const broadcastLinkButton = document.getElementById("broadcast-link-button");
-    const pricelistButton = document.getElementById("pricelist-button");
+    const discordButton = document.getElementById("discord-button");
     const pricePopup = document.getElementById("price-popup");
     const closePricePopup = document.getElementById("close-price-popup");
 
@@ -106,9 +106,9 @@ document.addEventListener("DOMContentLoaded", () => {
         window.open("https://ch.sooplive.co.kr/5wolindeyo", "_blank");
     });
 
-    // 가격표 보기 버튼 클릭 시
-    pricelistButton.addEventListener("click", () => {
-        pricePopup.classList.remove("hidden");
+    // 디스코드 버튼 클릭 시
+    discordButton.addEventListener("click", () => {
+        window.open("https://discord.gg/KZpsbPGCXv", "_blank");
     });
 
     // 가격표 닫기 버튼 클릭 시

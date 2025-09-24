@@ -494,7 +494,7 @@ body.eraser-mode #calendar-body td:hover {
     margin-top: 20px;
 }
 
-#broadcast-link-button, #pricelist-button {
+#broadcast-link-button, #pricelist-button, #discord-button {
     background-color: #f5a623;
     color: white;
     border: none;
