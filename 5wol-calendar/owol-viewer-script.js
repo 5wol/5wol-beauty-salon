@@ -8,6 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const prevBtn = document.getElementById('prev-month');
   const nextBtn = document.getElementById('next-month');
 
+  // Today's date (YYYY-MM-DD)
+  const pad2 = (n)=>String(n).padStart(2,'0');
+  const _today = new Date();
+  const todayStr = `${_today.getFullYear()}-${pad2(_today.getMonth()+1)}-${pad2(_today.getDate())}`;
+
   // Modal elements (define BEFORE any use)
   const modal      = document.getElementById('event-modal');
   const modalDate  = document.getElementById('modal-date');
@@ -108,6 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
           } else {
             cell.innerHTML = `<div class="scheduled-datePrint">${date}</div>`;
           }
+          if (fullDate === todayStr) cell.classList.add('today');
           date++;
         }
         row.appendChild(cell);
